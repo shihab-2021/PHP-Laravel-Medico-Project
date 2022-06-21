@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+.logo {
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+}
+
+/* Banner css start  */
+
+#showcase {
+    min-height: 400px;
+    background: url(https://image.freepik.com/free-photo/authentication-standing-physician-stylish-icons_1134-904.jpg)
+        center center / cover;
+    color: #ffffff;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+#showcase::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+.slogan {
+    font-family: "Anton", sans-serif;
+}
+.teamImg {
+    box-shadow: 4px 4px 7px gray;
+    border-radius: 10px;
+}
+.team {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+/* Banner css end  */
+
+/* Doctors css start  */
+.doctorImg {
+    height: 15rem !important;
+    width: 15rem !important;
+}
+/* Doctors css end  */
+
+/* Service show css start */
+#show {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    color: #ffffff;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+#show::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+.imgIcon {
+    font-size: 50px;
+    color: #fff;
+}
+.bgBlue {
+    background: #4a79f1;
+    box-shadow: 0 5px 20px #4a79f1;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.product-image {
+    height: 15rem;
+}
+/* Service show css end  */
+
+/* footer css start  */
+footer {
+    background-color: black;
+    min-height: 280px;
+    font-size: 20px;
+    color: #ffffff;
+}
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+/* footer css end  */
